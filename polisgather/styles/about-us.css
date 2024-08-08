@@ -1,0 +1,45 @@
+.header-text{
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 83px;
+  left: 96px;
+  font-weight: 500;
+}
+
+.main-content {
+  margin: 80px 96px 180px;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+  color: rgb(74,74,74);
+  line-height: 24px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 50px 0 10px;
+}
+
+.our-mission-line{
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.social-media-links {
+  display: flex;
+  margin-left: -37px;
+}
+
+.social-media-links li {
+  font-size: 18px;
+  padding-right: 15px;
+}

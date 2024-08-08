@@ -1,0 +1,186 @@
+main {
+  margin: 60px 100px;
+}
+
+.nav{
+  background-color: #0c0904;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 13vh;
+  line-height: 60px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.polis-gather-logo {
+  width: 200px;
+  height: 45px;
+}
+
+.right-links a{
+  padding: 0 10px;
+}
+
+.logout-btn{
+  background: rgb(129, 210, 79);
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all .3s;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.logout-btn:hover{
+  opacity: 0.82;
+}
+
+.btn {
+  background: #0c0904;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .3s;
+  margin-top: 10px;
+  padding: 15px 25px;
+  align-items: center;
+}
+
+.new-event-btn {
+  padding: 15px 32.5px;
+}
+
+.reservation-btn {
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  opacity: 0.82;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px ;
+}
+
+#newEventForm {
+  display: none;
+}
+
+.add-form {
+  max-width: 1000px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-left: 8%;
+}
+
+.add-event-text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  margin: 10px 20px;
+}
+
+.full-width {
+  flex-basis: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.add-btn {
+  display: block;
+  width: 14%;
+  padding: 10px;
+  border: 1px solid rgb(129, 210, 79);
+  background-color: transparent;
+  border-radius: 4px;
+  color: rgb(129, 210, 79);
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  margin-left: 43%;
+  margin-top: 15px;
+}
+
+.event-list {
+  margin: 50px 0;
+}
+
+.list-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f9f9f9;
+}
+
+#reservations {
+  text-align: center;
+}
+
+.delete-button {
+  color: #8d313d;
+  background: #ebd7d7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10%;
+}
+
+.event-img {
+  max-width: 80px;
+  height: auto;
+}
+
+.reservation-table {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
